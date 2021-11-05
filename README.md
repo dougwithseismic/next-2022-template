@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Proof Of Concept - 2022 Photologo.co
+## Proof Of Concept - 2022
 Here's a test-run for next.js and modern dev tooling. Let's check out a world where we can take advantage of set and forget version control, push-to-deploys, automated testing & performance tools, a beautiful React framework ([Nextjs.org](https://nextjs.org)), ezpz Tailwind functionality and a super fast, ultra performant and highly flexible JavaScript site.
 
 ### Coming up
