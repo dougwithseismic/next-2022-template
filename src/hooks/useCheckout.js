@@ -55,7 +55,7 @@ const useCheckout = () => {
     const [ state, setState ] = useState(checkoutState)
     const [ localStorage, setLocalStorage ] = useState()
 
-    const STORAGE_KEY = '_PHOTOLOGO_C'
+    const STORAGE_KEY = '_STORAGE_'
 
     useEffect(() => {
         // useEffect #1 - On load, lets grab any localStorage cart from a potential previous session a returning user had.
