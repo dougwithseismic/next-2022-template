@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-import { ProductCard } from '@components/plasmic/ProductCard'
+
 const ISR = ({ plasmicData }) => {
     return (
         <div>
@@ -20,7 +20,7 @@ export async function getStaticProps() {
 
     return {
         props: { plasmicData },
-        revalidate: 1
+        revalidate: 5
     }
 }
 
