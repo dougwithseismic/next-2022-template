@@ -7,8 +7,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <link rel="stylesheet" href="https://use.typekit.net/epg0jbd.css" />
-
+                    {/* <link rel="stylesheet" href="https://use.typekit.net/epg0jbd.css" /> */}
                     </Head>
                 <body>
                     <Main />

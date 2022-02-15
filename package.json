@@ -11,7 +11,6 @@
     "dependencies": {
         "@analytics/google-tag-manager": "^0.5.1",
         "@analytics/segment": "^1.1.2",
-        "@plasmicapp/loader-nextjs": "^1.0.33",
         "analytics": "^0.7.18",
         "autoprefixer": "^10.3.1",
         "axios": "^0.24.0",
@@ -25,8 +24,7 @@
         "react-dom": "^17.0.2",
         "sass": "^1.43.4",
         "swr": "^1.0.1",
-        "tailwindcss": "^2.2.4",
-        "uuid": "^8.3.2"
+        "tailwindcss": "^3.0.15"
     },
     "devDependencies": {
         "eslint": "7.31.0",
