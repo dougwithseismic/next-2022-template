@@ -1,17 +1,15 @@
 import Analytics from 'analytics'
-import segmentPlugin from '@analytics/segment'
 import googleTagManager from '@analytics/google-tag-manager'
 
+const SITE_NAME = `Next 11 Boilerplate 2022`
+const GTM_CONTAINER_ID = 'GTM-XXXXXX'
 
 const analytics = Analytics({
-    app: 'photologo-marketing',
+    app: SITE_NAME,
     plugins: [
         googleTagManager({
-            containerId: 'GTM-P7PR7M8'
+            containerId: GTM_CONTAINER_ID
         }),
-        segmentPlugin({
-            writeKey: process.env.NEXT_PUBLIC_SEGMENT_KEY
-        })
     ]
 })
 

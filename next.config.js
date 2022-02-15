@@ -4,10 +4,8 @@
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/
 
 module.exports = {
-    i18n: {
-        locales: [ 'en', 'de', 'fr', 'br-PT' ],
-        defaultLocale: 'en',
-        localeDetection: false,
+    images: {
+        domains: ['source.unsplash.com'],
     },
-    trailingSlash: true,
+    trailingSlash: false,
 }

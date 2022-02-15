@@ -4,8 +4,7 @@ import axios from 'axios'
 const ISR = ({ plasmicData }) => {
     return (
         <div>
-            This is ISR. Every five seconds, this will update via ISR. Just refresh! {plasmicData.utc_datetime}
-            <ProductCard />
+            This is ISR. Every five seconds, this will update via ISR. Just refresh! {currentTime.utc_datetime}
         </div>
     )
 }
@@ -16,10 +15,10 @@ export default ISR
 
 
 export async function getStaticProps() {
-    const plasmicData = await axios.get("http://worldtimeapi.org/api/timezone/Europe/Prague").then(response => response.data)
+    const currentTime = await axios.get("http://worldtimeapi.org/api/timezone/Europe/Prague").then(response => response.data)
 
     return {
-        props: { plasmicData },
+        props: { currentTime },
         revalidate: 5
     }
 }
