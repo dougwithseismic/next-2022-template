@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 
-const ISR = ({ plasmicData }) => {
+const ISR = ({ currentTime }) => {
     return (
         <div>
             This is ISR. Every five seconds, this will update via ISR. Just refresh! {currentTime.utc_datetime}
